@@ -1,6 +1,6 @@
 angular.module('bookApp')
     .controller('BookController', function() {
-        var vm = this;
+        const vm = this;
         vm.books = [
             { title: 'Title1', author: 'Author1', genre: 'Genre1' },
             { title: 'Title2', author: 'Author2', genre: 'Genre2' },
